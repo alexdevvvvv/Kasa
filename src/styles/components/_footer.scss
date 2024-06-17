@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__p {
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}

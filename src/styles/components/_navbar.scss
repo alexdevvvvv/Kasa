@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  padding: 0 50px;
+  .navbar__logo {
+    width: 150px;
+    margin-right: auto;
+  }
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar__list__item {
+  margin: 0 10px;
+  justify-content: flex-end;
+}
+
+.navbar__list__item a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar__list__item a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 1);
+  display: block;
+}

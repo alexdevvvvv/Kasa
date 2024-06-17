@@ -1,0 +1,40 @@
+.Error__404,
+.Error__404__p,
+.Error__404__a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Error__404 {
+  text-align: center;
+  color: rgba(255, 96, 96, 1);
+  font-size: 200px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Error__404__p {
+  text-align: center;
+  color: rgba(255, 96, 96, 1);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Error__404__a {
+  text-align: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+}
